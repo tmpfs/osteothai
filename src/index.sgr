@@ -1,0 +1,14 @@
+extends(src='layout.sgr')
+  block(name='stylesheets')
+    link(rel='stylesheet' href='/assets/css/style.css')
+
+  block(name='content')
+    header
+      h1 Osteothai
+      p Logo, logotype and short statement
+
+      div
+        p Slideshow of images for keywords: bodywork etc.
+
+  block(name='javascript')
+    script(src='/assets/js/main.js' defer)

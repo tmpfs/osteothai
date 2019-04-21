@@ -1,0 +1,32 @@
+doctype html
+html(lang='en')
+  head
+    block(name='title')
+      title Osteothai school
+
+    block(name='description')
+      meta(name='description' content='Osteothai School')
+
+    block(name='meta')
+      meta(charset='utf-8')
+      meta(http-equiv='X-UA-Compatible' content='IE=edge')
+      meta(name='author' content='muji <https://tmpfs.org>')
+      meta(name='viewport' content='width=device-width, initial-scale=1')
+      link(rel='canonical' href='https://osteothai.school')
+      link(rel='icon' type='image/png' href='/assets/img/favicon.png?r=2')
+
+    block(name='keywords')
+      meta(name='keywords' content='osteothai, osteopath, thai massage, bodywork, healing')
+
+    block(name='stylesheets')
+
+  body(id='top' class='{{pageId}}')
+    block(name='header')
+
+    block(name='content')
+
+    block(name='footer')
+
+    block(name='noscript')
+
+    block(name='javascript')

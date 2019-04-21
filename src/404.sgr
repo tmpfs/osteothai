@@ -1,0 +1,13 @@
+extends(src='layout.sgr')
+  block(name='stylesheets')
+    link(rel='stylesheet' href='/assets/css/style.css')
+  block(name='content')
+    div
+      h1
+        a(href='/' title='Osteothai School Home') Osteothai School
+    p
+      span
+        | Resource not found, please visit the&nbsp;
+        a(href='/' title='Osteothai School Home') home page.
+
+  block(name='javascript')
