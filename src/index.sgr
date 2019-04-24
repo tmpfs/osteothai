@@ -43,7 +43,9 @@ extends(src='layout.sgr')
           include(src='./_mock_event.sgr')
           
       section
-        p Course description
+        .courses
+          include(src='./_mock_course.sgr')
+          include(src='./_mock_course.sgr')
 
       section
         p Footnotes: bibliography, circus village etc
