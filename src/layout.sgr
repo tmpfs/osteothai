@@ -2,7 +2,7 @@ doctype html
 html(lang='en')
   head
     block(name='title')
-      title Osteothai school
+      title Osteothai School
 
     block(name='description')
       meta(name='description' content='Osteothai School')
