@@ -17,8 +17,18 @@ extends(src='layout.sgr')
         video(controls)
           source(src='/assets/video/bio-medium.mp4' type='video/mp4')
 
-      //-section
-        //-p Arno photo and biography
+      section.bio
+        p
+          img(src='/assets/img/arno.jpg' alt='arno' width='280' height='187')
+          | Arno L'Hermitte is a French trained Osteopath and physical therapist with 25 years of clinical experience. After extended studies and many years spent with Thai Massage Masters in northern Thailand Arno created Osteothai a combination of therapeutical bodywork and eastern and western healing touch.
+
+        p He is  the founder of the Thai Massage Circus where hundreds of students and many Thai massage teachers have visited over the last ten years to improve their Thai massage practice and touch.
+
+        p His journey has taken him to teach in nearly 20 countries around the world. He is now based in Bali at the Dragonfly-village retreat center in the heart of Ubud.
+
+        p A yoga teacher since 1999, he has been invited to teach anatomy and yoga therapy in various yoga teacher trainings, Osteothai courses and healing festivals around the world. During ten years in his own clinic in Tahiti he was in charge of two professional sport teams.
+
+        p A passionate teacher and healer Arno is also an eternal student and keeps exploring movement and touch.
 
       section
         .events
