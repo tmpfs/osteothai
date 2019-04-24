@@ -13,7 +13,7 @@ html(lang='en')
       meta(name='author' content='muji <https://tmpfs.org>')
       meta(name='viewport' content='width=device-width, initial-scale=1')
       link(rel='canonical' href='https://osteothai.school')
-      link(rel='icon' type='image/png' href='/assets/img/favicon.png?r=2')
+      link(rel='icon' type='image/png' href='/assets/img/favicon.png?v=3')
 
     block(name='keywords')
       meta(name='keywords' content='osteothai, osteopath, thai massage, bodywork, healing')

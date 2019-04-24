@@ -3,12 +3,40 @@ extends(src='layout.sgr')
     link(rel='stylesheet' href='/assets/css/style.css')
 
   block(name='content')
-    header
-      h1 Osteothai
-      p Logo, logotype and short statement
+    main
+      section
+        header
+          img.logo(src='/assets/img/brush-logo.jpg')
+          h1 Osteothai
+          div
+            span Artistic bodywork
+          div
+            span.author By Arno L&#39;Hermitte
 
-      div
-        p Slideshow of images for keywords: bodywork etc.
+      section.video
+        video(controls)
+          source(src='/assets/video/bio-medium.mp4' type='video/mp4')
+
+      //-section
+        //-p Arno photo and biography
+
+      section
+        .events
+          include(src='./_mock_event.sgr')
+          include(src='./_mock_event.sgr')
+          include(src='./_mock_event.sgr')
+          include(src='./_mock_event.sgr')
+          include(src='./_mock_event.sgr')
+          include(src='./_mock_event.sgr')
+          include(src='./_mock_event.sgr')
+          include(src='./_mock_event.sgr')
+          include(src='./_mock_event.sgr')
+          
+      section
+        p Course description
+
+      section
+        p Footnotes: bibliography, circus village etc
 
   block(name='javascript')
     script(src='/assets/js/main.js' defer)
