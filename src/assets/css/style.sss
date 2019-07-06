@@ -42,10 +42,6 @@ body
   text-align: center
 
 main
-
-  /*
-  max-width: 960px
-  */
   text-align: left
   margin: 0 auto
 
@@ -54,12 +50,10 @@ main
 
 header
   text-align: center
+  margin-bottom: 8rem
 
 section
   margin-bottom: 4rem
-
-section.video
-  text-align: center
 
 h1
   font-family: PlexSansBold
@@ -89,12 +83,22 @@ video
 .bio, .more
   margin: 0 auto
   margin-bottom: 4rem
-  max-width: 640px
+
+.bio
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-evenly
+  align-content: center
+  align-items: stretch
+  margin: 0 auto 4rem auto
 
 .leader
   display: flex
   flex-direction: row
   flex-wrap: wrap
+  min-width: 320px
+  max-width: 360px
 
 .leader > span
   display: inline-flex

@@ -13,27 +13,29 @@ extends(src='layout.sgr')
           div
             span.author By Arno L&#39;Hermitte
 
-      section.bio.leader
-        span.img
-        span.text.main-indent
-          span.block Arno is a French trained Osteopath and physical therapist with 25 years of clinical experience.
-          span.block
-            a(href='#read-more' title='Read more') Read more
+      section.bio
+        div.leader
+          span.img
+          span.text.main-indent
+            span.block Arno is a French trained Osteopath and physical therapist with 25 years of clinical experience.
+            //-span.block
+              //-a(href='#read-more' title='Read more') Read more
 
-      section.more.main-indent.hidden
-        p After extensive studies and many years spent with Thai Massage Masters in northern Thailand Arno created Osteothai a combination of therapeutical bodywork using eastern and western healing touch.
+        div.video
+          video(controls)
+            source(src='/assets/video/bio-medium.mp4' type='video/mp4')
 
-        p He is  the founder of the Thai Massage Circus where hundreds of students and many Thai massage teachers have visited over the last ten years to improve their Thai massage practice and touch.
 
-        p His journey has taken him to teach in nearly 20 countries around the world. He is now based in Bali at the Dragonfly village retreat center in the heart of Ubud.
+      //-section.more.main-indent.hidden
+        //-p After extensive studies and many years spent with Thai Massage Masters in northern Thailand Arno created Osteothai a combination of therapeutical bodywork using eastern and western healing touch.
 
-        p Arno has been a Yoga teacher since 1999 and has been invited to teach anatomy and Yoga therapy in various Yoga teacher training courses, Osteothai courses and healing festivals around the world. During ten years in his own clinic in Tahiti he was in charge of two professional sport teams.
+        //-p He is  the founder of the Thai Massage Circus where hundreds of students and many Thai massage teachers have visited over the last ten years to improve their Thai massage practice and touch.
 
-        p A passionate teacher and healer Arno is also an eternal student and keeps exploring movement and touch.
+        //-p His journey has taken him to teach in nearly 20 countries around the world. He is now based in Bali at the Dragonfly village retreat center in the heart of Ubud.
 
-      section.video
-        video(controls)
-          source(src='/assets/video/bio-medium.mp4' type='video/mp4')
+        //-p Arno has been a Yoga teacher since 1999 and has been invited to teach anatomy and Yoga therapy in various Yoga teacher training courses, Osteothai courses and healing festivals around the world. During ten years in his own clinic in Tahiti he was in charge of two professional sport teams.
+
+        //-p A passionate teacher and healer Arno is also an eternal student and keeps exploring movement and touch.
 
       section.events
         div.event.byc
@@ -152,12 +154,16 @@ extends(src='layout.sgr')
             li Techniques related to the diaphragm and breathing process, lower back, pelvic floor
             li Integration and evaluation
 
-              //-section.books
+      //-section.books
         //-include(src='./_mock_book.sgr')
         //-include(src='./_mock_book.sgr')
 
-      //-section
-        //-p Footnotes: circus village etc
+      //-footer
+        //-ul
+          //-li
+            //-a(href='https://circus-village.com' title='Circus Village') Circus Village
+          //-li
+            //-a(href='http://thaimassagecircus.com' title='Thai Massage Circus') Thai Massage Circus
 
   block(name='javascript')
     script(src='/assets/js/main.js' defer)
