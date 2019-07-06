@@ -92,11 +92,67 @@ extends(src='layout.sgr')
             h5 January 14th to 19th: Osteothai for the main joints
             h5 March 11th to 15th: Osteothai for the lower back condition
 
-      //-section.courses
-        //-include(src='./_mock_course.sgr')
-        //-include(src='./_mock_course.sgr')
+      section.courses.main-indent
+        //-h3 Course Modules
+        //-p The different modules can be studied in any order after completing the fondation course.
 
-      //-section.books
+        .course.full
+          h4 Osteothai foundation course : the bridge
+
+          p This class is a bridge class for students that want to solidify their Thai massage practice and bring precision, therapy and new life to their routine. The course focus is on principles of Osteothai via a clear review of the principles of biomechanics, touch and focused intention.
+
+          //-h5 Importance discriminative touch
+          //-
+          p Precise techniques concerning the general treatment of certains joints, the belly, the different touch and depth, test and first routine.
+
+          p This course also covers the lower back routine, what to do and what to avoid and the connections with the lower and upper body.
+
+          p Conscious integration of western and eastern approach to become with time an excellent Osteothai practitioner and Thai massage master, and clearly be bodywork practitioner able to know their limits without overlapping towards the medical and osteopath profession.
+
+        .course
+          h4 Osteothai for the main joints
+          h5 Close up where small and big movements occurs
+
+          ul
+            li Anatomy and biomechanics of the six main joints: ankle, knee, hip, wrist, elbow and shoulder
+            li Classification of the joints and axis of mouvement
+            li Landmarks, test of mobility
+            li Cause of restriction of movement
+            li Main joint conditions and common dysfunctions
+            li General Osteopathic treatment; a routine for the six main joints
+            li Integration in our Thai Massage sequence
+            li Evaluation
+
+        .course
+          h4 Osteothai for lower back condition
+          h5 Answers to the most common body condition
+
+          ul
+            li Anatomy and biomechanic lumbar spine
+            li Landmarks and test of mobility of the spine;  reading the body
+            li Origin of lumbar pain and most common conditions
+            li Osteothai routine for chronic lumbar pain
+            li What to do and what to avoid with acute pain
+            li General Treatment of the spine in Osteothai
+            li Specific belly work and relation to lower back pain
+            li Integration of Western and Thai approach
+            li Evaluation
+
+        .course
+          h4 Osteothai for the internal organs and respiratory system
+          h5 Healing within by touch
+
+          ul
+            li Anatomy and basic physiology of the digestive system and internal organs
+            li Landmarks, palpation, location for the internal organs
+            li The many origins of pain, differential diagnosis, what to do and avoid
+            li The contribution of Chi Nei Tsang
+            li General belly Osteothai routine
+            li Ppecific ways to untangles knots and tension
+            li Techniques related to the diaphragm and breathing process, lower back, pelvic floor
+            li Integration and evaluation
+
+              //-section.books
         //-include(src='./_mock_book.sgr')
         //-include(src='./_mock_book.sgr')
 

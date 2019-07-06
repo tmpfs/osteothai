@@ -148,22 +148,28 @@ video
   color: #ffffff
 
 .courses
+  background: black
   display: flex
+  font-size: 1.6rem
+  flex-direction: row
   flex-wrap: wrap
-  justify-content: space-between
+  justify-content: space-evenly
   align-content: center
-  align-items: center
+  align-items: stretch
+  margin: 0 auto
 
 .course
   display: inline-block
   padding: 2rem
-  border: 1px solid black
+  background: white
   min-width: 320px
   min-height: 320px
-  max-width: 440px
-  margin: 0 auto
+  max-width: 480px
   margin-bottom: 4rem
 
+.course.full
+  display: block
+  max-width: unset
 
 .books
   display: flex
@@ -177,8 +183,8 @@ video
   padding: 2rem
   border: 1px solid black
   min-width: 320px
-  min-height: 320px
-  max-width: 440px
+  min-height: 360px
+  max-width: 360px
   margin: 0 auto
   margin-bottom: 4rem
 
