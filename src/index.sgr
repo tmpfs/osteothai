@@ -18,9 +18,14 @@ extends(src='layout.sgr')
           source(src='/assets/video/bio-medium.mp4' type='video/mp4')
 
       section.bio
-        p
-          img(src='/assets/img/arno.jpg' alt='arno' width='280' height='187')
-          | Arno L'Hermitte is a French trained Osteopath and physical therapist with 25 years of clinical experience. After extended studies and many years spent with Thai Massage Masters in northern Thailand Arno created Osteothai a combination of therapeutical bodywork and eastern and western healing touch.
+
+        div.leader 
+          span
+            img(src='/assets/img/arno.jpg' alt='arno' width='280' height='187')
+          span
+            | Arno L'Hermitte is a French trained Osteopath and physical therapist with 25 years of clinical experience.
+          
+        p After extended studies and many years spent with Thai Massage Masters in northern Thailand Arno created Osteothai a combination of therapeutical bodywork and eastern and western healing touch.
 
         p He is  the founder of the Thai Massage Circus where hundreds of students and many Thai massage teachers have visited over the last ten years to improve their Thai massage practice and touch.
 
@@ -30,25 +35,27 @@ extends(src='layout.sgr')
 
         p A passionate teacher and healer Arno is also an eternal student and keeps exploring movement and touch.
 
-      section
-        .events
-          include(src='./_mock_event.sgr')
-          include(src='./_mock_event.sgr')
-          include(src='./_mock_event.sgr')
-          include(src='./_mock_event.sgr')
-          include(src='./_mock_event.sgr')
-          include(src='./_mock_event.sgr')
-          include(src='./_mock_event.sgr')
-          include(src='./_mock_event.sgr')
-          include(src='./_mock_event.sgr')
+      //-section.events
+        //-include(src='./_mock_event.sgr')
+        //-include(src='./_mock_event.sgr')
+        //-include(src='./_mock_event.sgr')
+        //-include(src='./_mock_event.sgr')
+        //-include(src='./_mock_event.sgr')
+        //-include(src='./_mock_event.sgr')
+        //-include(src='./_mock_event.sgr')
+        //-include(src='./_mock_event.sgr')
+        //-include(src='./_mock_event.sgr')
           
-      section
-        .courses
-          include(src='./_mock_course.sgr')
-          include(src='./_mock_course.sgr')
+      //-section.courses
+        //-include(src='./_mock_course.sgr')
+        //-include(src='./_mock_course.sgr')
 
-      section
-        p Footnotes: bibliography, circus village etc
+      //-section.books
+        //-include(src='./_mock_book.sgr')
+        //-include(src='./_mock_book.sgr')
+
+      //-section
+        //-p Footnotes: circus village etc
 
   block(name='javascript')
     script(src='/assets/js/main.js' defer)

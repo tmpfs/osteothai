@@ -1,11 +1,11 @@
 :root
-  --green: #4d5a00
+  --grey: #eee8d5
 
 ::selection
-  background: #eee8d5
+  background: var(--grey)
 
 ::-moz-selection
-  background: #eee8d5
+  background: var(--grey)
 
 *
   box-sizing: border-box
@@ -29,6 +29,7 @@ body
   text-align: center
 
 main
+  padding: 1rem
   max-width: 960px
   text-align: left
   margin: 0 auto
@@ -64,9 +65,20 @@ video
   margin: 0 auto
   max-width: 640px
 
+.bio .leader
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+
+.bio .leader span
+  display: inline-flex
+  flex: 1
+
+  /*
 .bio p img
   float: left
   margin-right: 2rem
+  */
 
 .events
   display: flex
@@ -92,6 +104,24 @@ video
   align-items: center
 
 .course
+  display: inline-block
+  padding: 2rem
+  border: 1px solid black
+  min-width: 320px
+  min-height: 320px
+  max-width: 440px
+  margin: 0 auto
+  margin-bottom: 4rem
+
+
+.books
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  align-content: center
+  align-items: center
+
+.book
   display: inline-block
   padding: 2rem
   border: 1px solid black
