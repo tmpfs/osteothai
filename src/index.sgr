@@ -4,7 +4,7 @@ extends(src='layout.sgr')
 
   block(name='content')
     main
-      section
+      section.main-indent
         header
           img.logo(src='/assets/img/brush-logo.jpg')
           h1 Osteothai
@@ -13,18 +13,14 @@ extends(src='layout.sgr')
           div
             span.author By Arno L&#39;Hermitte
 
-      section.video
-        video(controls)
-          source(src='/assets/video/bio-medium.mp4' type='video/mp4')
+      section.bio.leader
+        span.img
+        span.text.main-indent
+          span.block Arno L'Hermitte is a French trained Osteopath and physical therapist with 25 years of clinical experience.
+          span.block
+            a(href='#read-more' title='Read more') Read more
 
-      section.bio
-
-        div.leader 
-          span
-            img(src='/assets/img/arno.jpg' alt='arno' width='280' height='187')
-          span
-            | Arno L'Hermitte is a French trained Osteopath and physical therapist with 25 years of clinical experience.
-          
+      section.main-indent.hidden
         p After extended studies and many years spent with Thai Massage Masters in northern Thailand Arno created Osteothai a combination of therapeutical bodywork and eastern and western healing touch.
 
         p He is  the founder of the Thai Massage Circus where hundreds of students and many Thai massage teachers have visited over the last ten years to improve their Thai massage practice and touch.
@@ -34,6 +30,15 @@ extends(src='layout.sgr')
         p A yoga teacher since 1999, he has been invited to teach anatomy and yoga therapy in various yoga teacher trainings, Osteothai courses and healing festivals around the world. During ten years in his own clinic in Tahiti he was in charge of two professional sport teams.
 
         p A passionate teacher and healer Arno is also an eternal student and keeps exploring movement and touch.
+
+      section.video
+        video(controls)
+          source(src='/assets/video/bio-medium.mp4' type='video/mp4')
+
+      section
+        div.event
+          h4 Spain
+
 
       //-section.events
         //-include(src='./_mock_event.sgr')
@@ -45,7 +50,7 @@ extends(src='layout.sgr')
         //-include(src='./_mock_event.sgr')
         //-include(src='./_mock_event.sgr')
         //-include(src='./_mock_event.sgr')
-          
+
       //-section.courses
         //-include(src='./_mock_course.sgr')
         //-include(src='./_mock_course.sgr')
