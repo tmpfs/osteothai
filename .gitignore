@@ -2,7 +2,7 @@
 node_modules
 coverage
 target
-/public
+build
 /ref
 /doc/events.html
 /lib/gallery.json

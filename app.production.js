@@ -43,8 +43,8 @@ module.exports = {
     ],
     optimize: optimize(),
     audit: [
-      require('makestatic-validate-html'),
-      require('makestatic-audit-files'),
+      //require('makestatic-validate-html'),
+      //require('makestatic-audit-files'),
       require('makestatic-archive-zip')
     ]
   },
@@ -54,7 +54,7 @@ module.exports = {
       s3: {
         domain: 'osteothai.school',
         credentials: {
-          profile: 'osteothai'
+          profile: 'arno'
         },
         prefix: 'production',
         region: 'ap-southeast-1',
@@ -62,12 +62,12 @@ module.exports = {
         redirects: [
           'www.osteothai.school'
         ],
-        publish: true,
-        cloudfront: {
-          key: 'cloudfront_distribution_production',
-          invalidate: true,
-          paths: ['/*']
-        }
+        publish: false,
+        //cloudfront: {
+          //key: 'cloudfront_distribution_production',
+          //invalidate: true,
+          //paths: ['/*']
+        //}
       }
     }
   }

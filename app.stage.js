@@ -18,7 +18,7 @@ conf.deploy = {
     s3: {
       domain: 'osteothai.school',
       credentials: {
-        profile: 'osteothai'
+        profile: 'arno'
       },
       prefix: 'stage',
       params: {
@@ -29,12 +29,12 @@ conf.deploy = {
       redirects: [
         'www.osteothai.school'
       ],
-      publish: true,
-      cloudfront: {
-        key: 'cloudfront_distribution_stage',
-        invalidate: true,
-        paths: ['/*']
-      }
+      publish: false,
+      //cloudfront: {
+        //key: 'cloudfront_distribution_stage',
+        //invalidate: true,
+        //paths: ['/*']
+      //}
     }
   }
 }

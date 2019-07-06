@@ -1,0 +1,170 @@
+extends layout
+
+block stylesheets
+  link(rel='stylesheet' href='/assets/css/style.css')
+
+block content
+  main
+    section.main-indent
+      header
+        img.logo(src='/assets/img/brush-logo.jpg')
+        h1 Osteothai
+        div
+          span Artistic bodywork
+        div
+          span.author By Arno L&#39;Hermitte
+
+    section.bio
+      div.leader
+        span.img
+        span.text.main-indent
+          span.block Arno is a French trained Osteopath and physical therapist with 25 years of clinical experience.
+          //-span.block
+            //-a(href='#read-more' title='Read more') Read more
+
+      div.video
+        video(controls)
+          source(src='/assets/video/bio-medium.mp4' type='video/mp4')
+
+
+    //-section.more.main-indent.hidden
+      //-p After extensive studies and many years spent with Thai Massage Masters in northern Thailand Arno created Osteothai a combination of therapeutical bodywork using eastern and western healing touch.
+
+      //-p He is  the founder of the Thai Massage Circus where hundreds of students and many Thai massage teachers have visited over the last ten years to improve their Thai massage practice and touch.
+
+      //-p His journey has taken him to teach in nearly 20 countries around the world. He is now based in Bali at the Dragonfly village retreat center in the heart of Ubud.
+
+      //-p Arno has been a Yoga teacher since 1999 and has been invited to teach anatomy and Yoga therapy in various Yoga teacher training courses, Osteothai courses and healing festivals around the world. During ten years in his own clinic in Tahiti he was in charge of two professional sport teams.
+
+      //-p A passionate teacher and healer Arno is also an eternal student and keeps exploring movement and touch.
+
+    section.events
+      div.event.byc
+        a.details(href='https://www.barcelonayogaconference.cat/' title='Barcelona Yoga Conference')
+          h4 Barcelona Yoga Conference
+          h4 Barcelona, Spain
+          h5 July 4th to 8th 2019
+          p Osteothai with Arno and friends at the fabulous BYC.
+
+      div.event.paris
+        a.details(href='https://www.artdutoucher.net/' title='Registration with Barbara Aubry')
+          h4 École de l’art du touche
+          h4 Paris, France
+          h5 August 26th to 30th 2019
+          p Osteothai for the internal organs.
+
+      div.event.england
+        a.details(href='mailto:charbevan15@gmail.com' title='Details and registration with Charlotte Bevan')
+          h4 The Stonehenge Retreat
+          h4 Monkton Barn, England
+          h5 September 21st to 25th 2019
+          p Osteothai foundation course.
+
+      div.event.costa-rica
+        a.details(href='https://www.yoga-mandir.com/masajetailandes' title='Details and registration with Edgar Ortiz')
+          h4 Yoga Mandir Studio
+          h4 San Jose, Costa Rica
+          h5 September 28th to October 3rd 2019
+          p Thai massage advanced course (level 3).
+
+      div.event.argentina
+        a.details(href='mailto:felix.cufre@hotmail.com' title='Details and registration with Felix Curfe')
+          h4 Thai Massage Argentina School
+          h4 Buenos Aires, Argentina
+          h5 October 19th to 27th 2019
+          p Osteothai fondation course.
+
+      div.event.lisbon
+        a.details(href='http://agora-lisboa.com/' title='Detail and registration with Sonia et Adelia')
+          h4 Agora Yoga Studio
+          h4 Lisbon, Portugal
+          h5 November 20th to 25th 2019
+          p Osteothai fondation course.
+
+      div.event.laos
+        a.details(href='http://www.thaimassagecircus.com/' title='Details and registration with Arno')
+          h4 Thai Massage Circus
+          h4 Luang Prabang, Laos
+          h5 February 2nd to february 28th 2020
+          p Intensive residential Thai massage retreat
+
+      div.event.thailand
+        a.details(href='http://loikrohmassage.com/' title='Details and registration with Coocky and Xavier')
+          h4 Loi Kroh Massage School
+          h4 Chiang Mai, Thailand, 2020
+          h5 January 14th to 19th: Osteothai for the main joints
+          h5 March 11th to 15th: Osteothai for the lower back condition
+
+    section.courses.main-indent
+      //-h3 Course Modules
+      //-p The different modules can be studied in any order after completing the fondation course.
+
+      .course.full
+        h4 Osteothai foundation course : the bridge
+
+        p This class is a bridge class for students that want to solidify their Thai massage practice and bring precision, therapy and new life to their routine. The course focus is on principles of Osteothai via a clear review of the principles of biomechanics, touch and focused intention.
+
+        //-h5 Importance discriminative touch
+        //-
+        p Precise techniques concerning the general treatment of certains joints, the belly, the different touch and depth, test and first routine.
+
+        p This course also covers the lower back routine, what to do and what to avoid and the connections with the lower and upper body.
+
+        p Conscious integration of western and eastern approach to become with time an excellent Osteothai practitioner and Thai massage master, and clearly be bodywork practitioner able to know their limits without overlapping towards the medical and osteopath profession.
+
+      .course
+        h4 Osteothai for the main joints
+        h5 Close up where small and big movements occurs
+
+        ul
+          li Anatomy and biomechanics of the six main joints: ankle, knee, hip, wrist, elbow and shoulder
+          li Classification of the joints and axis of mouvement
+          li Landmarks, test of mobility
+          li Cause of restriction of movement
+          li Main joint conditions and common dysfunctions
+          li General Osteopathic treatment; a routine for the six main joints
+          li Integration in our Thai Massage sequence
+          li Evaluation
+
+      .course
+        h4 Osteothai for lower back condition
+        h5 Answers to the most common body condition
+
+        ul
+          li Anatomy and biomechanic lumbar spine
+          li Landmarks and test of mobility of the spine;  reading the body
+          li Origin of lumbar pain and most common conditions
+          li Osteothai routine for chronic lumbar pain
+          li What to do and what to avoid with acute pain
+          li General Treatment of the spine in Osteothai
+          li Specific belly work and relation to lower back pain
+          li Integration of Western and Thai approach
+          li Evaluation
+
+      .course
+        h4 Osteothai for the internal organs and respiratory system
+        h5 Healing within by touch
+
+        ul
+          li Anatomy and basic physiology of the digestive system and internal organs
+          li Landmarks, palpation, location for the internal organs
+          li The many origins of pain, differential diagnosis, what to do and avoid
+          li The contribution of Chi Nei Tsang
+          li General belly Osteothai routine
+          li Ppecific ways to untangles knots and tension
+          li Techniques related to the diaphragm and breathing process, lower back, pelvic floor
+          li Integration and evaluation
+
+    //-section.books
+      //-include(src='./_mock_book.sgr')
+      //-include(src='./_mock_book.sgr')
+
+    //-footer
+      //-ul
+        //-li
+          //-a(href='https://circus-village.com' title='Circus Village') Circus Village
+        //-li
+          //-a(href='http://thaimassagecircus.com' title='Thai Massage Circus') Thai Massage Circus
+
+block javascript
+  script(src='/assets/js/main.js' defer)
