@@ -16,18 +16,18 @@ extends(src='layout.sgr')
       section.bio.leader
         span.img
         span.text.main-indent
-          span.block Arno L'Hermitte is a French trained Osteopath and physical therapist with 25 years of clinical experience.
+          span.block Arno is a French trained Osteopath and physical therapist with 25 years of clinical experience.
           span.block
             a(href='#read-more' title='Read more') Read more
 
-      section.main-indent.hidden
-        p After extended studies and many years spent with Thai Massage Masters in northern Thailand Arno created Osteothai a combination of therapeutical bodywork and eastern and western healing touch.
+      section.more.main-indent.hidden
+        p After extensive studies and many years spent with Thai Massage Masters in northern Thailand Arno created Osteothai a combination of therapeutical bodywork using eastern and western healing touch.
 
         p He is  the founder of the Thai Massage Circus where hundreds of students and many Thai massage teachers have visited over the last ten years to improve their Thai massage practice and touch.
 
-        p His journey has taken him to teach in nearly 20 countries around the world. He is now based in Bali at the Dragonfly-village retreat center in the heart of Ubud.
+        p His journey has taken him to teach in nearly 20 countries around the world. He is now based in Bali at the Dragonfly village retreat center in the heart of Ubud.
 
-        p A yoga teacher since 1999, he has been invited to teach anatomy and yoga therapy in various yoga teacher trainings, Osteothai courses and healing festivals around the world. During ten years in his own clinic in Tahiti he was in charge of two professional sport teams.
+        p Arno has been a Yoga teacher since 1999 and has been invited to teach anatomy and Yoga therapy in various Yoga teacher training courses, Osteothai courses and healing festivals around the world. During ten years in his own clinic in Tahiti he was in charge of two professional sport teams.
 
         p A passionate teacher and healer Arno is also an eternal student and keeps exploring movement and touch.
 
@@ -35,21 +35,62 @@ extends(src='layout.sgr')
         video(controls)
           source(src='/assets/video/bio-medium.mp4' type='video/mp4')
 
-      section
-        div.event
-          h4 Spain
+      section.events
+        div.event.byc
+          a.details(href='https://www.barcelonayogaconference.cat/' title='Barcelona Yoga Conference')
+            h4 Barcelona Yoga Conference
+            h4 Barcelona, Spain
+            h5 July 4th to 8th 2019
+            p Osteothai with Arno and friends at the fabulous BYC.
 
+        div.event.paris
+          a.details(href='https://www.artdutoucher.net/' title='Registration with Barbara Aubry')
+            h4 École de l’art du touche
+            h4 Paris, France
+            h5 August 26th to 30th 2019
+            p Osteothai for the internal organs.
 
-      //-section.events
-        //-include(src='./_mock_event.sgr')
-        //-include(src='./_mock_event.sgr')
-        //-include(src='./_mock_event.sgr')
-        //-include(src='./_mock_event.sgr')
-        //-include(src='./_mock_event.sgr')
-        //-include(src='./_mock_event.sgr')
-        //-include(src='./_mock_event.sgr')
-        //-include(src='./_mock_event.sgr')
-        //-include(src='./_mock_event.sgr')
+        div.event.england
+          a.details(href='mailto:charbevan15@gmail.com' title='Details and registration with Charlotte Bevan')
+            h4 The Stonehenge Retreat
+            h4 Monkton Barn, England
+            h5 September 21st to 25th 2019
+            p Osteothai foundation course.
+
+        div.event.costa-rica
+          a.details(href='https://www.yoga-mandir.com/masajetailandes' title='Details and registration with Edgar Ortiz')
+            h4 Yoga Mandir Studio
+            h4 San Jose, Costa Rica
+            h5 September 28th to October 3rd 2019
+            p Thai massage advanced course (level 3).
+
+        div.event.argentina
+          a.details(href='mailto:felix.cufre@hotmail.com' title='Details and registration with Felix Curfe')
+            h4 Thai Massage Argentina School
+            h4 Buenos Aires, Argentina
+            h5 October 19th to 27th 2019
+            p Osteothai fondation course.
+
+        div.event.lisbon
+          a.details(href='http://agora-lisboa.com/' title='Detail and registration with Sonia et Adelia')
+            h4 Agora Yoga Studio
+            h4 Lisbon, Portugal
+            h5 November 20th to 25th 2019
+            p Osteothai fondation course.
+
+        div.event.laos
+          a.details(href='http://www.thaimassagecircus.com/' title='Details and registration with Arno')
+            h4 Thai Massage Circus
+            h4 Luang Prabang, Laos
+            h5 February 2nd to february 28th 2020
+            p Intensive residential Thai massage retreat
+
+        div.event.thailand
+          a.details(href='http://loikrohmassage.com/' title='Details and registration with Coocky and Xavier')
+            h4 Loi Kroh Massage School
+            h4 Chiang Mai, Thailand, 2020
+            h5 January 14th to 19th: Osteothai for the main joints
+            h5 March 11th to 15th: Osteothai for the lower back condition
 
       //-section.courses
         //-include(src='./_mock_course.sgr')

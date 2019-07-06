@@ -42,7 +42,10 @@ body
   text-align: center
 
 main
+
+  /*
   max-width: 960px
+  */
   text-align: left
   margin: 0 auto
 
@@ -67,7 +70,7 @@ h3, h4, h5, h6
   padding: 0
 
 p
-  margin: 2rem 0
+  margin: 0 0 2rem 0
 
 .author
   font-size: 1.6rem
@@ -83,7 +86,7 @@ video
   min-height: 240px
   max-width: 640px
 
-.bio
+.bio, .more
   margin: 0 auto
   margin-bottom: 4rem
   max-width: 640px
@@ -112,20 +115,37 @@ video
   margin-top: 0
 
 .events
+  margin: 0 auto
   display: flex
   flex-wrap: wrap
-  justify-content: space-between
-  align-content: center
-  align-items: center
+  justify-content: space-evenly
+  align-content: space-between
+  align-items: space-between
 
 .event
-  display: inline-block
-  padding: 2rem
-  border: 1px solid black
-  min-width: 280px
-  min-height: 280px
+  width: 320px
+  min-height: 320px
   margin: 0 auto
   margin-bottom: 4rem
+  background-size: cover
+  font-size: 1.6rem
+  color: #ffffff
+  text-shadow: 1px 1px 2px black
+  background-position: center center
+  font-family: PlexSansBold
+
+.event .details
+  display: block
+  padding: 2rem
+  min-height: 70%
+  background: rgba(0, 0, 0, 0.6)
+
+.event .details > h4:first-child
+  text-decoration: underline
+
+.event a, .event a:hover, .event a:visited
+  text-decoration: none
+  color: #ffffff
 
 .courses
   display: flex
@@ -168,3 +188,27 @@ video
 .block
   flex: 0 !important
   display: block !important
+
+.byc
+  background-image: url(/assets/img/events/byc.jpg)
+
+.paris
+  background-image: url(/assets/img/events/paris.jpg)
+
+.england
+  background-image: url(/assets/img/events/england.jpg)
+
+.costa-rica
+  background-image: url(/assets/img/events/costa-rica.jpg)
+
+.argentina
+  background-image: url(/assets/img/events/argentina.jpg)
+
+.lisbon
+  background-image: url(/assets/img/events/lisbon.jpg)
+
+.thailand
+  background-image: url(/assets/img/events/thailand.jpg)
+
+.laos
+  background-image: url(/assets/img/events/laos.jpg)

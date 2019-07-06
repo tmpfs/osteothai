@@ -2,12 +2,20 @@ extends(src='layout.sgr')
   block(name='stylesheets')
     link(rel='stylesheet' href='/assets/css/style.css')
   block(name='content')
-    div
-      h1
-        a(href='/' title='Osteothai School Home') Osteothai School
-    p
-      span
-        | Resource not found, please visit the&nbsp;
-        a(href='/' title='Osteothai School Home') home page.
+    main
+      section.main-indent
+        header
+          img.logo(src='/assets/img/brush-logo.jpg')
+          h1 Osteothai
+          div
+            span Artistic bodywork
+          div
+            span.author By Arno L&#39;Hermitte
+
+    section.bio
+        p
+          span
+            | Resource not found, please visit the&nbsp;
+            a(href='/' title='Osteothai School Home') home page.
 
   block(name='javascript')
